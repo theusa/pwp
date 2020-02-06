@@ -42,6 +42,8 @@
             After all she's 30 and in her sexual, reproductive, and working prime. Does she want to "waste" that with Joe Average?
             She's read about DMT trips that were life changing for some people, but is tripping balls the right answer for her? Or is taking that Xanex bar and staying with Joe Average the right call?
             Or are there other options that she isn't even aware of?
+
+            Molly works 8-5, plus an average of 4 hours on the weekend. She goes to the gym 2-3 times a week to keep the pounds off, but she doesn't enjoy it too much.
         </p>
 
     <p><strong>Technology</strong></p>
