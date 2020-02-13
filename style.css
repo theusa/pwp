@@ -1,0 +1,93 @@
+
+.Piggie-Container {
+    width: 100%;
+    position: relative;
+}
+
+.Piggie {
+    transform: scaleX(-1);
+    width: 100%;
+    position: absolute;
+}
+
+.navbar-brand {
+    width: 4em;
+    height: 2em;
+}
+
+.Title {
+    position: relative;
+    display: inline;
+    width: 100%;
+    z-index: 100;
+    top: 5em;
+    left: 1em;
+    color: white;
+    font-size: 4vw;
+}
+
+.Paths {
+    position: relative;
+    display: inline;
+    width: 100%;
+    z-index: 100;
+    top: 10em;
+    left: 5em;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.Starting-Point {
+    position: relative;
+    display: inline;
+    top: 12em;
+    left: 18em;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.Arrow {
+    position: relative;
+    display: inline;
+    top: 10em;
+    width: 10%;
+
+  /*  position: relative;
+    display: inline;
+    width: 100%;
+    z-index: 100;
+    top: 5em;
+    left: 1em;
+    color: white;
+    font-size: 4vw;*/
+}
+
+.How-To {
+    transform: scaleX(-1);
+    /*
+    width: 100%;
+    */
+    background-color: red;
+    /*
+    background-image: url(https://cdn.pixabay.com/photo/2019/03/26/23/02/piglet-4083870_960_720.jpg);
+    */
+
+}
+
+/**
+How to get the arrow to not show the background
+How to get the text on the second H2 to show up
+ */
+
+
+/** Look up: img-fluid, mx-auto, d-block (in class, for images) and pb-x
+col-3 etc to set column length, then mobile size compatability (combine such as col-sm-3)
+py-54 for padding (bootstrap) or my-5 for margin
+make divs to create different columns for things you want to separate
+block vs inline element?
+section, row, container, column for <div>s
+class = col is column
+ */
