@@ -1,13 +1,14 @@
+/*
+.Landing {
+    background-image: url("Piggie-Picture.png");
+    height: 20em;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    !*
+    background-attachment: fixed;
+    *!
 
-.Piggie-Container {
-    width: 100%;
-    position: relative;
-}
-
-.Piggie {
-    transform: scaleX(-1);
-    width: 100%;
-    position: absolute;
 }
 
 .navbar-brand {
@@ -20,7 +21,7 @@
     display: inline;
     width: 100%;
     z-index: 100;
-    top: 5em;
+    top: 1em;
     left: 1em;
     color: white;
     font-size: 4vw;
@@ -31,7 +32,7 @@
     display: inline;
     width: 100%;
     z-index: 100;
-    top: 10em;
+    top: 5em;
     left: 5em;
     color: white;
     font-size: 2vw;
@@ -41,7 +42,7 @@
 .Starting-Point {
     position: relative;
     display: inline;
-    top: 12em;
+    top: 8em;
     left: 18em;
     color: white;
     font-size: 2vw;
@@ -55,27 +56,78 @@
     top: 10em;
     width: 10%;
 
-  /*  position: relative;
+  !*  position: relative;
     display: inline;
     width: 100%;
     z-index: 100;
     top: 5em;
     left: 1em;
     color: white;
-    font-size: 4vw;*/
+    font-size: 4vw;*!
 }
 
 .How-To {
-    transform: scaleX(-1);
-    /*
+
+    !*
     width: 100%;
-    */
+    *!
+    !*
+    background-image: url("Piggie-Picture.png");
+    *!
+    height: 60vw;
+    transform: scaleX(-1);
+    background-size: cover;
     background-color: red;
-    /*
+
+    !*
     background-image: url(https://cdn.pixabay.com/photo/2019/03/26/23/02/piglet-4083870_960_720.jpg);
-    */
+    *!
 
 }
+*/
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 100vh;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+
+h1 {
+    letter-spacing: 8px;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+.How-To {
+    height: 100%;
+}
+
 
 /**
 How to get the arrow to not show the background
@@ -90,4 +142,6 @@ make divs to create different columns for things you want to separate
 block vs inline element?
 section, row, container, column for <div>s
 class = col is column
+
+How to make page
  */
