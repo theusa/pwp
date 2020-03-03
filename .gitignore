@@ -2,3 +2,6 @@
 /.idea
 php/vendor
 php/mail-config.php
+php/composer.json
+php/composer.lock
+/vendor

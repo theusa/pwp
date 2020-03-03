@@ -5,7 +5,7 @@
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
  *
- * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Usaama Alnaji <alnajiun@gmail.com> with help from Rochelle Lewis <rlewis37@cnm.edu>'s code
  **/
 
 // require all composer dependencies
